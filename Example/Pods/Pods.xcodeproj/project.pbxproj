@@ -43,11 +43,11 @@
 		21A9CEC07B119D8050EEF0FF3D4919DC /* ColorfulLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ColorfulLog-Info.plist"; sourceTree = "<group>"; };
 		277E0AD7E933FE7F9BB19CBB9A890D40 /* Pods-ColorfulLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorfulLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3CE0FC334FCB5807023EE03BF5913D5D /* Pods-ColorfulLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorfulLog_Example.modulemap"; sourceTree = "<group>"; };
-		3D7EFF1811F6ADEE50B5AE397072C1A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3D7EFF1811F6ADEE50B5AE397072C1A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3D84C5CB44876FC0360924D799568BAC /* Pods-ColorfulLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorfulLog_Tests-dummy.m"; sourceTree = "<group>"; };
 		478B95A4980C04C7F06CBE99CA72BC8E /* Pods-ColorfulLog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorfulLog_Tests-Info.plist"; sourceTree = "<group>"; };
 		4C90BA43D5EC8E0711863BB821BD3E15 /* Pods-ColorfulLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorfulLog_Example-dummy.m"; sourceTree = "<group>"; };
-		4FA01D35191304464A051A3ACD18F3EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4FA01D35191304464A051A3ACD18F3EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		533061C444F02E67B2013ED2EF71CF52 /* Pods-ColorfulLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorfulLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7687C69BE3D1AB033AE06114A8FCE401 /* ColorfulLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ColorfulLog.modulemap; sourceTree = "<group>"; };
@@ -58,8 +58,8 @@
 		8A19169C91AA1EC2A55C1AAE7DA8DA66 /* Pods-ColorfulLog_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ColorfulLog_Tests"; path = Pods_ColorfulLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6E550CBE1C91ED3AC40D31F430BA01 /* Pods-ColorfulLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorfulLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8C638ADC1B0BA516A1D3879BBD991EB3 /* Pods-ColorfulLog_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorfulLog_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A16434CFF57F6BDAFE52F2CEAEB7E90F /* ColorfulLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ColorfulLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; };
+		A16434CFF57F6BDAFE52F2CEAEB7E90F /* ColorfulLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ColorfulLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3C773DFF82D05ED0A6FC507F4706DD6 /* ColorfulLog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ColorfulLog; path = ColorfulLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A711908B50D523278CFF4CF630956827 /* ColorfulLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorfulLog-dummy.m"; sourceTree = "<group>"; };
 		C01845115328BABB3AE119CC24095B16 /* Pods-ColorfulLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorfulLog_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -557,8 +557,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

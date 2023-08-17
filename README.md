@@ -42,8 +42,8 @@ class MyViewController: UIViewController {
 
 ```
 
-❤️ ERROR - This is Error Test<br>
-💚 DEBUG - This is Error Test<br>
-💙 DEFAULT - This is Error Test
+❤️ ERROR - error log<br>
+💚 DEBUG - debugging..<br>
+💙 DEFAULT - default log type
 
 default type is 'default'.

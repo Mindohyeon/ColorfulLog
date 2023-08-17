@@ -1,0 +1,16 @@
+PODS:
+  - ColorfulLog (0.1.0)
+
+DEPENDENCIES:
+  - ColorfulLog (from `../`)
+
+EXTERNAL SOURCES:
+  ColorfulLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ColorfulLog: 6ee3eb9f110846378ebb5fe3eb99042feb54c43e
+
+PODFILE CHECKSUM: 760891e78dae636061ab8f719ea442d6584fdbd7
+
+COCOAPODS: 1.11.3

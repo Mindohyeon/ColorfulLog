@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A39AC202BEBFBCDA20AFF044B7AACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		061EE8C8C7BCD0ED0918FC7448995C3A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = E414F36B58510FAC683DA94AA23BCE7B /* ReplaceMe.swift */; };
+		075029C83A07B23C16F086B1B77A320A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		49261C173EDA36900E90DE18005C1477 /* Pods-ColorfulLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C90BA43D5EC8E0711863BB821BD3E15 /* Pods-ColorfulLog_Example-dummy.m */; };
+		4E49E2F27CA5420BBC6037009E6577D3 /* ColorfulLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E76608EC01645AA5F84DECDB5C4E5EC6 /* ColorfulLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60916482695285E540D297B4E7E7A7ED /* Pods-ColorfulLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C01845115328BABB3AE119CC24095B16 /* Pods-ColorfulLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78443FBE61CF82CDE589E91AA03A1E88 /* Pods-ColorfulLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 817A017C5A5910E5BD9BE65743ED1652 /* Pods-ColorfulLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9816908C324886F8A435182C88F47FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C9497C23A20AEC8AC4E2C5BA2AAA1F4B /* ColorfulLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A711908B50D523278CFF4CF630956827 /* ColorfulLog-dummy.m */; };
+		F848BB7D97E8B702A7124B74AC925CE5 /* Pods-ColorfulLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D84C5CB44876FC0360924D799568BAC /* Pods-ColorfulLog_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C686ED98D03EE81C62A185809F17E17F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0958D12CD1E17C6075B5C59975DA2BB5;
+			remoteInfo = ColorfulLog;
+		};
+		F743F4759FF3A43316D76F16E15EB0D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27639A8E412D91029C7AD692A00436D4;
+			remoteInfo = "Pods-ColorfulLog_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A23227A544CFB4094305391EAC6B4DB /* Pods-ColorfulLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorfulLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1748E35FFF6AD91D08E4DCCCA5AC9ADE /* Pods-ColorfulLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorfulLog_Tests.modulemap"; sourceTree = "<group>"; };
+		1C6CAA63E96220C54CFBEB2E03873385 /* ColorfulLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorfulLog.release.xcconfig; sourceTree = "<group>"; };
+		21A9CEC07B119D8050EEF0FF3D4919DC /* ColorfulLog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ColorfulLog-Info.plist"; sourceTree = "<group>"; };
+		277E0AD7E933FE7F9BB19CBB9A890D40 /* Pods-ColorfulLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorfulLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3CE0FC334FCB5807023EE03BF5913D5D /* Pods-ColorfulLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColorfulLog_Example.modulemap"; sourceTree = "<group>"; };
+		3D7EFF1811F6ADEE50B5AE397072C1A8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3D84C5CB44876FC0360924D799568BAC /* Pods-ColorfulLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorfulLog_Tests-dummy.m"; sourceTree = "<group>"; };
+		478B95A4980C04C7F06CBE99CA72BC8E /* Pods-ColorfulLog_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorfulLog_Tests-Info.plist"; sourceTree = "<group>"; };
+		4C90BA43D5EC8E0711863BB821BD3E15 /* Pods-ColorfulLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorfulLog_Example-dummy.m"; sourceTree = "<group>"; };
+		4FA01D35191304464A051A3ACD18F3EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		533061C444F02E67B2013ED2EF71CF52 /* Pods-ColorfulLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorfulLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7687C69BE3D1AB033AE06114A8FCE401 /* ColorfulLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ColorfulLog.modulemap; sourceTree = "<group>"; };
+		8011B409CE1D57D394369412B4053868 /* Pods-ColorfulLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorfulLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		817A017C5A5910E5BD9BE65743ED1652 /* Pods-ColorfulLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorfulLog_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8323DED46D06F6E908CFEEDD1DE710D2 /* Pods-ColorfulLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorfulLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83EC0CB78C9A8AB0E50EC632B33490AD /* Pods-ColorfulLog_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ColorfulLog_Example"; path = Pods_ColorfulLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A19169C91AA1EC2A55C1AAE7DA8DA66 /* Pods-ColorfulLog_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ColorfulLog_Tests"; path = Pods_ColorfulLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A6E550CBE1C91ED3AC40D31F430BA01 /* Pods-ColorfulLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorfulLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C638ADC1B0BA516A1D3879BBD991EB3 /* Pods-ColorfulLog_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorfulLog_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A16434CFF57F6BDAFE52F2CEAEB7E90F /* ColorfulLog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ColorfulLog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3C773DFF82D05ED0A6FC507F4706DD6 /* ColorfulLog */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ColorfulLog; path = ColorfulLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A711908B50D523278CFF4CF630956827 /* ColorfulLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColorfulLog-dummy.m"; sourceTree = "<group>"; };
+		C01845115328BABB3AE119CC24095B16 /* Pods-ColorfulLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorfulLog_Example-umbrella.h"; sourceTree = "<group>"; };
+		D2DFD76C138F4AF301A74EC43E72D36B /* Pods-ColorfulLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorfulLog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D8EA029502D7F0444C8F3450488BAF29 /* Pods-ColorfulLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorfulLog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E1A243D084540A5E00139FCD60E12DF4 /* ColorfulLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorfulLog-prefix.pch"; sourceTree = "<group>"; };
+		E414F36B58510FAC683DA94AA23BCE7B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ColorfulLog/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E76608EC01645AA5F84DECDB5C4E5EC6 /* ColorfulLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColorfulLog-umbrella.h"; sourceTree = "<group>"; };
+		EE4ACF0C931AF2F2188F6C1300104475 /* ColorfulLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ColorfulLog.debug.xcconfig; sourceTree = "<group>"; };
+		FEB9EA00134CF3FCE245615F7D80AFF1 /* Pods-ColorfulLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorfulLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A486D0D772B63A59FF607DF2FF6F09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A39AC202BEBFBCDA20AFF044B7AACD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69507FA4C5502FAF4713985E1DFB6686 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				075029C83A07B23C16F086B1B77A320A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8580BA8F0AAFD1A9F7197FFC49101E32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9816908C324886F8A435182C88F47FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047CDB687E2BDEE0EB2AC699B8C6B6EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD5E737D38E91DB481818145C8C3E318 /* Pods-ColorfulLog_Example */,
+				F9528A054A4D9CDC8E18F618FE3F6F24 /* Pods-ColorfulLog_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1CF4392033B50D873D590D2942C7BE2B /* ColorfulLog */ = {
+			isa = PBXGroup;
+			children = (
+				E414F36B58510FAC683DA94AA23BCE7B /* ReplaceMe.swift */,
+				A59CB62AAE7B79AE568002F9A660B421 /* Pod */,
+				CAC0F65E4658641705DDC6E547C1461D /* Support Files */,
+			);
+			name = ColorfulLog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		44188483B4077303212C25A5FA6298DF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CF4392033B50D873D590D2942C7BE2B /* ColorfulLog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4E874293A4E7D8F4D1C1BB8A303860AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3C773DFF82D05ED0A6FC507F4706DD6 /* ColorfulLog */,
+				83EC0CB78C9A8AB0E50EC632B33490AD /* Pods-ColorfulLog_Example */,
+				8A19169C91AA1EC2A55C1AAE7DA8DA66 /* Pods-ColorfulLog_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A59CB62AAE7B79AE568002F9A660B421 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A16434CFF57F6BDAFE52F2CEAEB7E90F /* ColorfulLog.podspec */,
+				3D7EFF1811F6ADEE50B5AE397072C1A8 /* LICENSE */,
+				4FA01D35191304464A051A3ACD18F3EA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CAC0F65E4658641705DDC6E547C1461D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7687C69BE3D1AB033AE06114A8FCE401 /* ColorfulLog.modulemap */,
+				A711908B50D523278CFF4CF630956827 /* ColorfulLog-dummy.m */,
+				21A9CEC07B119D8050EEF0FF3D4919DC /* ColorfulLog-Info.plist */,
+				E1A243D084540A5E00139FCD60E12DF4 /* ColorfulLog-prefix.pch */,
+				E76608EC01645AA5F84DECDB5C4E5EC6 /* ColorfulLog-umbrella.h */,
+				EE4ACF0C931AF2F2188F6C1300104475 /* ColorfulLog.debug.xcconfig */,
+				1C6CAA63E96220C54CFBEB2E03873385 /* ColorfulLog.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ColorfulLog";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				44188483B4077303212C25A5FA6298DF /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4E874293A4E7D8F4D1C1BB8A303860AE /* Products */,
+				047CDB687E2BDEE0EB2AC699B8C6B6EB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD5E737D38E91DB481818145C8C3E318 /* Pods-ColorfulLog_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3CE0FC334FCB5807023EE03BF5913D5D /* Pods-ColorfulLog_Example.modulemap */,
+				FEB9EA00134CF3FCE245615F7D80AFF1 /* Pods-ColorfulLog_Example-acknowledgements.markdown */,
+				8A6E550CBE1C91ED3AC40D31F430BA01 /* Pods-ColorfulLog_Example-acknowledgements.plist */,
+				4C90BA43D5EC8E0711863BB821BD3E15 /* Pods-ColorfulLog_Example-dummy.m */,
+				D8EA029502D7F0444C8F3450488BAF29 /* Pods-ColorfulLog_Example-frameworks.sh */,
+				8C638ADC1B0BA516A1D3879BBD991EB3 /* Pods-ColorfulLog_Example-Info.plist */,
+				C01845115328BABB3AE119CC24095B16 /* Pods-ColorfulLog_Example-umbrella.h */,
+				533061C444F02E67B2013ED2EF71CF52 /* Pods-ColorfulLog_Example.debug.xcconfig */,
+				D2DFD76C138F4AF301A74EC43E72D36B /* Pods-ColorfulLog_Example.release.xcconfig */,
+			);
+			name = "Pods-ColorfulLog_Example";
+			path = "Target Support Files/Pods-ColorfulLog_Example";
+			sourceTree = "<group>";
+		};
+		F9528A054A4D9CDC8E18F618FE3F6F24 /* Pods-ColorfulLog_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1748E35FFF6AD91D08E4DCCCA5AC9ADE /* Pods-ColorfulLog_Tests.modulemap */,
+				8011B409CE1D57D394369412B4053868 /* Pods-ColorfulLog_Tests-acknowledgements.markdown */,
+				8323DED46D06F6E908CFEEDD1DE710D2 /* Pods-ColorfulLog_Tests-acknowledgements.plist */,
+				3D84C5CB44876FC0360924D799568BAC /* Pods-ColorfulLog_Tests-dummy.m */,
+				478B95A4980C04C7F06CBE99CA72BC8E /* Pods-ColorfulLog_Tests-Info.plist */,
+				817A017C5A5910E5BD9BE65743ED1652 /* Pods-ColorfulLog_Tests-umbrella.h */,
+				0A23227A544CFB4094305391EAC6B4DB /* Pods-ColorfulLog_Tests.debug.xcconfig */,
+				277E0AD7E933FE7F9BB19CBB9A890D40 /* Pods-ColorfulLog_Tests.release.xcconfig */,
+			);
+			name = "Pods-ColorfulLog_Tests";
+			path = "Target Support Files/Pods-ColorfulLog_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38B9E49A13028B1FE02FD20FD1725D29 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60916482695285E540D297B4E7E7A7ED /* Pods-ColorfulLog_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D44B5A922BE34D3CD9AAE8E10BC4435 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E49E2F27CA5420BBC6037009E6577D3 /* ColorfulLog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77D8A560CD6468DBA4C2E7228601E40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78443FBE61CF82CDE589E91AA03A1E88 /* Pods-ColorfulLog_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0958D12CD1E17C6075B5C59975DA2BB5 /* ColorfulLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D95F76752C6BD4085BD621FCBE614EB /* Build configuration list for PBXNativeTarget "ColorfulLog" */;
+			buildPhases = (
+				7D44B5A922BE34D3CD9AAE8E10BC4435 /* Headers */,
+				A91356CE355B9A85068B7A1B691EFDA9 /* Sources */,
+				8580BA8F0AAFD1A9F7197FFC49101E32 /* Frameworks */,
+				AE25699989C8A3C8C2A0B65C7B767146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorfulLog;
+			productName = ColorfulLog;
+			productReference = A3C773DFF82D05ED0A6FC507F4706DD6 /* ColorfulLog */;
+			productType = "com.apple.product-type.framework";
+		};
+		27639A8E412D91029C7AD692A00436D4 /* Pods-ColorfulLog_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FBBCD070636AE21597CD6934916196 /* Build configuration list for PBXNativeTarget "Pods-ColorfulLog_Example" */;
+			buildPhases = (
+				38B9E49A13028B1FE02FD20FD1725D29 /* Headers */,
+				D07E1DD45EB0D5F31FF4C7A324C0C144 /* Sources */,
+				63A486D0D772B63A59FF607DF2FF6F09 /* Frameworks */,
+				4D82F69889348981F69A03C3341BC773 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BF770EBC2DBB881003D194B613C3ACD /* PBXTargetDependency */,
+			);
+			name = "Pods-ColorfulLog_Example";
+			productName = Pods_ColorfulLog_Example;
+			productReference = 83EC0CB78C9A8AB0E50EC632B33490AD /* Pods-ColorfulLog_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		4192EE315754E333512DEDF55EDAE6C7 /* Pods-ColorfulLog_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3AC645BBB5F0CC427D0C47C9EF84FB5 /* Build configuration list for PBXNativeTarget "Pods-ColorfulLog_Tests" */;
+			buildPhases = (
+				C77D8A560CD6468DBA4C2E7228601E40 /* Headers */,
+				058357495C8B8081D229452045D6A3A9 /* Sources */,
+				69507FA4C5502FAF4713985E1DFB6686 /* Frameworks */,
+				9FF0C282334E91C4F287CDE94931EAC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05155BBE8DF57771D85F7547D6B40F75 /* PBXTargetDependency */,
+			);
+			name = "Pods-ColorfulLog_Tests";
+			productName = Pods_ColorfulLog_Tests;
+			productReference = 8A19169C91AA1EC2A55C1AAE7DA8DA66 /* Pods-ColorfulLog_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4E874293A4E7D8F4D1C1BB8A303860AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0958D12CD1E17C6075B5C59975DA2BB5 /* ColorfulLog */,
+				27639A8E412D91029C7AD692A00436D4 /* Pods-ColorfulLog_Example */,
+				4192EE315754E333512DEDF55EDAE6C7 /* Pods-ColorfulLog_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D82F69889348981F69A03C3341BC773 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FF0C282334E91C4F287CDE94931EAC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE25699989C8A3C8C2A0B65C7B767146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058357495C8B8081D229452045D6A3A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F848BB7D97E8B702A7124B74AC925CE5 /* Pods-ColorfulLog_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A91356CE355B9A85068B7A1B691EFDA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9497C23A20AEC8AC4E2C5BA2AAA1F4B /* ColorfulLog-dummy.m in Sources */,
+				061EE8C8C7BCD0ED0918FC7448995C3A /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07E1DD45EB0D5F31FF4C7A324C0C144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49261C173EDA36900E90DE18005C1477 /* Pods-ColorfulLog_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05155BBE8DF57771D85F7547D6B40F75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ColorfulLog_Example";
+			target = 27639A8E412D91029C7AD692A00436D4 /* Pods-ColorfulLog_Example */;
+			targetProxy = F743F4759FF3A43316D76F16E15EB0D9 /* PBXContainerItemProxy */;
+		};
+		3BF770EBC2DBB881003D194B613C3ACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ColorfulLog;
+			target = 0958D12CD1E17C6075B5C59975DA2BB5 /* ColorfulLog */;
+			targetProxy = C686ED98D03EE81C62A185809F17E17F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0288C96B2288B071F6CD9A7135967E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C6CAA63E96220C54CFBEB2E03873385 /* ColorfulLog.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ColorfulLog/ColorfulLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorfulLog/ColorfulLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ColorfulLog/ColorfulLog.modulemap";
+				PRODUCT_MODULE_NAME = ColorfulLog;
+				PRODUCT_NAME = ColorfulLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		189197F553F3DBB145CF14D441B71D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A23227A544CFB4094305391EAC6B4DB /* Pods-ColorfulLog_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorfulLog_Tests/Pods-ColorfulLog_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorfulLog_Tests/Pods-ColorfulLog_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31D0889A4A2B01F42AE37B4AD2B8E756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE4ACF0C931AF2F2188F6C1300104475 /* ColorfulLog.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ColorfulLog/ColorfulLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ColorfulLog/ColorfulLog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ColorfulLog/ColorfulLog.modulemap";
+				PRODUCT_MODULE_NAME = ColorfulLog;
+				PRODUCT_NAME = ColorfulLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9727F4B8AD942A9EEB80AE5090D8BE8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 533061C444F02E67B2013ED2EF71CF52 /* Pods-ColorfulLog_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorfulLog_Example/Pods-ColorfulLog_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorfulLog_Example/Pods-ColorfulLog_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B67142804C4630D2E77346266B21DE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2DFD76C138F4AF301A74EC43E72D36B /* Pods-ColorfulLog_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorfulLog_Example/Pods-ColorfulLog_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorfulLog_Example/Pods-ColorfulLog_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E645EB06EC9B0DEFC6C486E67AACD291 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277E0AD7E933FE7F9BB19CBB9A890D40 /* Pods-ColorfulLog_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorfulLog_Tests/Pods-ColorfulLog_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorfulLog_Tests/Pods-ColorfulLog_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09FBBCD070636AE21597CD6934916196 /* Build configuration list for PBXNativeTarget "Pods-ColorfulLog_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9727F4B8AD942A9EEB80AE5090D8BE8A /* Debug */,
+				B67142804C4630D2E77346266B21DE61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D95F76752C6BD4085BD621FCBE614EB /* Build configuration list for PBXNativeTarget "ColorfulLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D0889A4A2B01F42AE37B4AD2B8E756 /* Debug */,
+				0288C96B2288B071F6CD9A7135967E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3AC645BBB5F0CC427D0C47C9EF84FB5 /* Build configuration list for PBXNativeTarget "Pods-ColorfulLog_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189197F553F3DBB145CF14D441B71D4E /* Debug */,
+				E645EB06EC9B0DEFC6C486E67AACD291 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

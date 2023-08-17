@@ -1,17 +1,11 @@
-//
-//  ViewController.swift
-//  ColorfulLog
-//
-//  Created by 81687906 on 08/17/2023.
-//  Copyright (c) 2023 81687906. All rights reserved.
-//
-
 import UIKit
+import ColorfulLog
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        DLog(type: .error, text: "this is first error text!")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -19,6 +13,5 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 }
 

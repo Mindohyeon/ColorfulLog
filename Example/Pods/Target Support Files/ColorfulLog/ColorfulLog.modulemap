@@ -1,0 +1,6 @@
+framework module ColorfulLog {
+  umbrella header "ColorfulLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

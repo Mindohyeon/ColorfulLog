@@ -1,28 +1,22 @@
 # ColorfulLog
 
-[![CI Status](https://img.shields.io/travis/81687906/ColorfulLog.svg?style=flat)](https://travis-ci.org/81687906/ColorfulLog)
-[![Version](https://img.shields.io/cocoapods/v/ColorfulLog.svg?style=flat)](https://cocoapods.org/pods/ColorfulLog)
-[![License](https://img.shields.io/cocoapods/l/ColorfulLog.svg?style=flat)](https://cocoapods.org/pods/ColorfulLog)
-[![Platform](https://img.shields.io/cocoapods/p/ColorfulLog.svg?style=flat)](https://cocoapods.org/pods/ColorfulLog)
+Installation
+Swift Package Manager
+Swift Package Manager is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+To integrate MSGLayout into your Xcode project using Swift Package Manager, add it to the dependencies value of your Package.swift:
 
 ## Installation
+Swift Package Manager<br>
+[Swift Package Manager](https://www.swift.org/package-manager) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
 
-ColorfulLog is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+To integrate ```ColorfulLog``` into your Xcode project using Swift Package Manager, add it to the dependencies value of your Package.swift:
 
-```ruby
-pod 'ColorfulLog'
+```swift
+dependencies: [
+    .package(url: "https://github.com/Mindohyeon/ColorfulLog", .upToNextMajor(from: "0.1.0"))
+]
 ```
-
-## Author
-
-81687906, min50875@naver.com
 
 ## License
 

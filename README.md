@@ -21,3 +21,29 @@ dependencies: [
     .package(url: "https://github.com/Mindohyeon/ColorfulLog", .upToNextMajor(from: "0.1.0"))
 ]
 ```
+
+
+## Usage
+```swift
+
+import ColorfulLog
+
+class MyViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        DLog(type: .error, text: "error log")
+        DLog(type: .debug, text: "debugging..")
+        DLog(text: "default log type")
+
+    }
+}
+
+```
+
+❤️ ERROR - This is Error Test<br>
+💚 DEBUG - This is Error Test<br>
+💙 DEFAULT - This is Error Test
+
+default type is 'default'.

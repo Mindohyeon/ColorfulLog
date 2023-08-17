@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ColorfulLog_Example' do
+  pod 'ColorfulLog', :path => '../'
+
+  target 'ColorfulLog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

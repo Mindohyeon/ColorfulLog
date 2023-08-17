@@ -4,7 +4,7 @@ Installation
 Swift Package Manager
 Swift Package Manager is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
 
-To integrate MSGLayout into your Xcode project using Swift Package Manager, add it to the dependencies value of your Package.swift:
+To integrate ```ColorfulLog``` into your Xcode project using Swift Package Manager, add it to the dependencies value of your Package.swift:
 
 ## Installation
 Swift Package Manager<br>
